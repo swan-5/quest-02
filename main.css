@@ -59,28 +59,102 @@ header>ul>li{
     text-align:center;
     font-size:14px;
 }
-.chefs {
-    width:771px;
+.chefs {   
+    background-color:rgba(236,236,236);
     height:304px;
-    background-color:aliceblue;
     margin: 0 auto;
     margin-top:30px;
 }
-.chefs>p{
-    width :500px;
-    float:left;
+.bluechef {
+    width:771px;
+    height:304px;
+    background-color: skyblue;
+    margin: 0 auto;
+    
+
 }
+
 .title {
+     width :500px;
      text-decoration-line: underline;
      font-weight: bold;
      font-size: 20px;
+     padding:50px 0px 10px 0px;
+     box-sizing:border-box;
+     float:left;
 }
 .text {
     font-size: 15px;
-
+    box-sizing:border-box;
+    width :500px;
+    float:left;
 }
 .chefs>img {
-    width:241;
     height:304px;
+}
+.top {
+    height:500px;
+    width: 1000px;
+    margin : 30px auto 0;
+    font-size: 0
     
+}
+
+.top>img{
+    height:500px;
+    width: 750px;
+    
+}
+
+.green {
+    background-color:rgba(16, 104, 16, 0.2);
+    height: 210px;
+    width: 210px;
+    font-size:10px;
+}
+
+.right {
+    width: 250px;
+    height:250px;
+    margin:0;
+    float:right;
+ 
+}
+.box_all {
+    font-size:16px;
+    margin : 0 auto;
+    height:500px;
+    width:1000px;
+    
+
+}
+ .box1 { 
+    height: 250px;
+    width: 250px;
+    background-color: rgb(86, 72, 63);
+    padding:20px;
+    box-sizing:border-box;
+    float:left;
+
+}  
+.box2 {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(221, 129, 9);
+    padding:20px;
+    box-sizing:border-box;
+    float:left;
+}
+.box3 {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(228, 215, 156);
+    float:left;
+}
+
+footer {
+    width: 750px;
+    height: 40px;
+    background-color: lightgray;
+    margin : 0 auto;
 }
