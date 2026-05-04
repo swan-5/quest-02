@@ -96,8 +96,7 @@ header>ul>li{
     height:500px;
     width: 1000px;
     margin : 30px auto 0;
-    font-size: 0
-    
+    font-size: 0;
 }
 
 .top>img{
@@ -108,8 +107,8 @@ header>ul>li{
 
 .green {
     background-color:rgba(16, 104, 16, 0.2);
-    height: 210px;
-    width: 210px;
+    height: 250px;
+    width: 250px;
     font-size:10px;
 }
 
@@ -125,8 +124,6 @@ header>ul>li{
     margin : 0 auto;
     height:500px;
     width:1000px;
-    
-
 }
  .box1 { 
     height: 250px;
@@ -145,16 +142,27 @@ header>ul>li{
     box-sizing:border-box;
     float:left;
 }
-.box3 {
+.box7 {
     width: 250px;
     height: 500px;
     background-color: rgb(228, 215, 156);
-    float:left;
+    float:right;
 }
 
-footer {
-    width: 750px;
+.footer { 
+    width: 1000px;
     height: 40px;
     background-color: lightgray;
     margin : 0 auto;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.footer div {
+    display:inline-block;
+    margin:0 10px;
+}
+ .footer>div.split {
+    color: orange;
 }
