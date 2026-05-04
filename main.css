@@ -1,23 +1,23 @@
 header{
     height: 120px;
-    margin: 0 auto;
+    margin:0 auto;
 }
-ul {
-    list-style :none;
-    display:flex; 
-    justify-content: center; 
+.menu {
+    text-align :center;
+    margin:0 auto;
+    padding:0;
 }
-li:hover {
+.menu li {
+    display:inline-block;
+    margin-right:80px;
+    margin-top:33px;
+    
+}
+
+.menu li:hover {
     color: red;
     text-decoration-line: underline;
     text-decoration-color: black;
-}
-
-header>ul>li{
-    float: left;
-    text-align: center;
-    margin-right:80px;
-    margin-top:33px;
 }
 .main_picture {
     height: 464px;
