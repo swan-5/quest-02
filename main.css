@@ -1,17 +1,12 @@
 header{
     height: 120px;
-    margin:0 auto;
 }
 .menu {
     text-align :center;
-    margin:0 auto;
-    padding:0;
 }
 .menu li {
     display:inline-block;
-    margin-right:80px;
-    margin-top:33px;
-    
+    margin:33px 40px;
 }
 
 .menu li:hover {
@@ -20,10 +15,12 @@ header{
     text-decoration-color: black;
 }
 .main_picture {
-    height: 464px;
-    overflow:hidden;
+    height:464px;
+    background-image:url(./image/main.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
+/* 그림 전체 출력 */
 .icon_title {
     background-color:orange;
     margin-top : 30px;
@@ -100,7 +97,6 @@ header{
 .top>img{
     height:500px;
     width: 750px;
-    
     
 }
 
