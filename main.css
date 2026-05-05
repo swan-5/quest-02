@@ -89,24 +89,23 @@ header{
     width :500px;
     float:left;
 }
-.chefs>img {
-    height:304px;
-}
+
 .top {
     height:500px;
     width: 1000px;
     margin : 30px auto 0;
     font-size: 0;
+    
 }
-
 .top>img{
     height:500px;
     width: 750px;
     
+    
 }
 
 .green {
-    background-color:rgba(16, 104, 16, 0.2);
+    background-color:rgba(16, 104, 16, 0.5);
     height: 250px;
     width: 250px;
     font-size:10px;
@@ -120,7 +119,6 @@ header{
  
 }
 .box_all {
-    font-size:16px;
     margin : 0 auto;
     height:500px;
     width:1000px;
