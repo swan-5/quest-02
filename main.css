@@ -15,12 +15,11 @@ header{
     text-decoration-color: black;
 }
 .main_picture {
-    height:464px;
+    height:464px; 
     background-image:url(./image/main.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: 100% 464px;
 }
-/* 그림 전체 출력 */
+
 .icon_title {
     background-color:orange;
     margin-top : 30px;
