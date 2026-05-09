@@ -81,7 +81,6 @@ header{
     height:250px;
     margin:0;
     float:right;
- 
 }
 .box_all {
     margin : 0 auto;
@@ -97,7 +96,6 @@ header{
     box-sizing:border-box;
     float:left;
 }  
-
 .box7 {
     width: 250px;
     height: 500px;
@@ -108,7 +106,7 @@ header{
 .footer { 
     width: 1000px;
     height: 40px;
-    margin : 0 auto;
+    margin : 0 auto 30px;
     text-align: center;
     line-height: 40px;
 }
