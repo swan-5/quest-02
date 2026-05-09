@@ -41,7 +41,6 @@ header{
     display: inline-block;
     margin-right:60px;
 }
-
 .icon_box>.icon4{
     margin-right:0;
 }
@@ -52,8 +51,7 @@ header{
 }
 .chefs .container {   
     width:771px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 .chefs .chefstext{
     width :500px;
@@ -64,24 +62,20 @@ header{
 
 .top {
     height:500px;
-    width: 1000px;
-    margin : 30px auto 0;
-    font-size: 0;
-    
+    width:1000px;
+    margin :30px auto 0;
+    font-size: 0;  
 }
 .top>img{
     height:500px;
     width: 750px;
-    
 }
-
 .green {
     background-color:rgba(16, 104, 16, 0.5);
     height: 250px;
     width: 250px;
     font-size:10px;
 }
-
 .right {
     width: 250px;
     height:250px;
@@ -94,23 +88,16 @@ header{
     height:500px;
     width:1000px;
 }
- .box1 { 
-    height: 250px;
+
+.box { 
+    height:250px;
     width: 250px;
     background-color: rgb(86, 72, 63);
     padding:20px;
     box-sizing:border-box;
     float:left;
-
 }  
-.box2 {
-    height: 250px;
-    width: 250px;
-    background-color: rgb(221, 129, 9);
-    padding:20px;
-    box-sizing:border-box;
-    float:left;
-}
+
 .box7 {
     width: 250px;
     height: 500px;
@@ -121,11 +108,9 @@ header{
 .footer { 
     width: 1000px;
     height: 40px;
-    background-color: lightgray;
     margin : 0 auto;
     text-align: center;
     line-height: 40px;
-    
 }
 
 .footer div {
