@@ -70,7 +70,7 @@ header{
     height:500px;
     width: 750px;
 }
-.container {
+.top .container {
     display:inline-block;
     background-image: url(./image/chef_about.png);
     height: 500px;
@@ -79,12 +79,11 @@ header{
 }
 
 .green {
-    background-color:rgba(16, 104, 16, 0.5);
     height: 210px;
     width: 210px;
     padding:20px;
     font-size:10px;
-    margin-top:250px;
+    margin-top:250px
 
 }
 .right {
