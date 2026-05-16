@@ -14,6 +14,7 @@ header{
     text-decoration-line: underline;
     text-decoration-color: black;
 }
+
 .main_picture {
     height:464px; 
     background-image:url(./image/main.png); 
@@ -24,8 +25,12 @@ header{
     margin-top : 30px;
     margin-bottom: 30px;
     text-align : center;
+    font-weight: bold;
 }
-
+.icon_title::first-line {
+    font-size: 10px;
+    font-weight: lighter;
+}
 .icon_box{
     padding:30px; 
     width:1240px;
@@ -33,15 +38,12 @@ header{
     font-size:14px;
     text-align:center;
 }
-.icon_box>.icon1,
-.icon_box>.icon2,
-.icon_box>.icon3,
-.icon_box>.icon4{
+.icon,.icon4{
     width: 250px;
     display: inline-block;
     margin-right:60px;
 }
-.icon_box>.icon4{
+.icon4{
     margin-right:0;
 }
 .chefs{
@@ -57,9 +59,13 @@ header{
     width :500px;
     float:left;
     margin-right:30px;
-    padding:60px 0;
+    padding:60px 0; 
 }
-
+.chefstext::first-line {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 .top {
     height:500px;
     width:1000px;
@@ -83,9 +89,10 @@ header{
     width: 210px;
     padding:20px;
     font-size:10px;
-    margin-top:250px
-
+    margin-top:250px;
 }
+
+
 .right {
     width: 250px;
     height:250px;
@@ -104,6 +111,7 @@ header{
     padding:20px;
     float:left;
 }  
+
 .box7 {
     width: 210px;
     height: 460px;
